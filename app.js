@@ -163,6 +163,4 @@ quoteButton.addEventListener('click', () => {
     let random = Math.floor(Math.random() * quotes.length)
     quote.innerText = quotes[random].quote;
     author.textContent = quotes[random].author;
-
-    console.log(quotes[random]);
 })
